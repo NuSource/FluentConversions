@@ -1,6 +1,6 @@
-using FluentConversions.Enums;
+using NuSource.FluentConversions.Enums;
 
-namespace FluentConversions.Types;
+namespace NuSource.FluentConversions.Types;
 
 public class Time
 {

@@ -1,5 +1,5 @@
 
-namespace FluentConversions.Enums;
+namespace NuSource.FluentConversions.Enums;
 
 public enum TemperatureType
 {

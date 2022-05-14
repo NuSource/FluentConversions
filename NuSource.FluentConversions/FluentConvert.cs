@@ -1,7 +1,7 @@
-using FluentConversions.Enums;
-using FluentConversions.Types;
+using NuSource.FluentConversions.Enums;
+using NuSource.FluentConversions.Types;
 
-namespace FluentConversions;
+namespace NuSource.FluentConversions;
 
 public static class FluentConvert
 {

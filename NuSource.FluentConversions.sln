@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentConversions", "FluentConversions\FluentConversions.csproj", "{A0C8FD6F-974D-4E33-82F6-06003BB88FF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuSource.FluentConversions", "NuSource.FluentConversions\NuSource.FluentConversions.csproj", "{A0C8FD6F-974D-4E33-82F6-06003BB88FF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentConversions.Test", "FluentConversions.Test\FluentConversions.Test.csproj", "{EAE0B9B5-CF7E-430C-8C63-89DAF8E67D89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuSource.FluentConversions.Test", "NuSource.FluentConversions.Test\NuSource.FluentConversions.Test.csproj", "{EAE0B9B5-CF7E-430C-8C63-89DAF8E67D89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

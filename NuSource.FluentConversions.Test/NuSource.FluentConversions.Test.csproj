@@ -22,7 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\FluentConversions\FluentConversions.csproj" />
+      <ProjectReference Include="..\NuSource.FluentConversions\NuSource.FluentConversions.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-namespace FluentConversions;
+namespace NuSource.FluentConversions;
 
 public class ConversionException : ApplicationException
 {

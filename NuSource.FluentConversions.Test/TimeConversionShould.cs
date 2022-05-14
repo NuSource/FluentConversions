@@ -1,9 +1,9 @@
 using System.Security.Cryptography;
 using FluentAssertions;
-using FluentConversions.Enums;
+using NuSource.FluentConversions.Enums;
 using Xunit;
 
-namespace FluentConversions.Test;
+namespace NuSource.FluentConversions.Test;
 
 public class TimeConversionShould
 {
