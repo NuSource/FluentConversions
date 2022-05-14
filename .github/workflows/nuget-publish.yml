@@ -1,14 +1,11 @@
-name: .NET
+name: NuGet Publish
 
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -20,6 +17,11 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore --configuration release
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Publish
+      uses: myci-actions/publish-nuget@5
+      with:
+        filename: './**/NuSource.FluentConversions.*.nupkg'
+        api-key: ${{ secrets.NUGET_DOT_ORG_API_KEY }}
