@@ -19,7 +19,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore --configuration release
     - name: Publish
-      uses: myci-actions/publish-nuget@5
-      with:
-        filename: './**/NuSource.FluentConversions.*.nupkg'
-        api-key: ${{ secrets.NUGET_DOT_ORG_API_KEY }}
+      run: nuget push './**/NuSource.FluentConversions.*.nupkg' -Source 'https://api.nuget.org/v3/index.json' -ApiKey '${{ secrets.NUGET_DOT_ORG_API_KEY }}' -SkipDuplicate
