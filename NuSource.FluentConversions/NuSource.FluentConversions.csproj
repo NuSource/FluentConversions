@@ -19,6 +19,10 @@
         <Description>Simple and fluent conversions for various units.</Description>
     </PropertyGroup>
 
+    <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+        <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    </PropertyGroup>
+
     <ItemGroup>
         <None Include="../README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
