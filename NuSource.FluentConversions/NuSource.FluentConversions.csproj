@@ -6,6 +6,8 @@
         <Nullable>enable</Nullable>
         <LangVersion>10</LangVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <PackageVersion>0.0.2</PackageVersion>
         <Authors>NuSource</Authors>
         <PackageProjectUrl>https://github.com/NuSource/FluentConversions</PackageProjectUrl>
