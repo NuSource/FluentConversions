@@ -5,18 +5,22 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>10</LangVersion>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <IncludeSymbols>true</IncludeSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-        <PackageVersion>0.0.3</PackageVersion>
-        <Authors>NuSource</Authors>
-        <PackageProjectUrl>https://github.com/NuSource/FluentConversions</PackageProjectUrl>
+        <PackageVersion>0.0.4</PackageVersion>
+        <AssemblyVersion>0.0.4</AssemblyVersion>
+        <FileVersion>0.0.4</FileVersion>
         <Company>NuSource</Company>
-        <AssemblyVersion>0.0.3</AssemblyVersion>
-        <FileVersion>0.0.3</FileVersion>
+        <RepositoryUrl>https://github.com/NuSource/FluentConversions</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
         <NeutralLanguage>en-US</NeutralLanguage>
         <Copyright>MIT License</Copyright>
-        <PackageLicenseUrl>https://github.com/NuSource/FluentConversions/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Description>Simple and fluent conversions for various units.</Description>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
 
 </Project>
