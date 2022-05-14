@@ -18,8 +18,6 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore --configuration release
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
     - name: Publish
       uses: myci-actions/publish-nuget@5
       with:
