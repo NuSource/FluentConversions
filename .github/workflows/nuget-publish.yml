@@ -15,6 +15,6 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Pack
-      run: dotnet pack --include-symbols --include-source --configuration release -p:ContinuousIntegrationBuild=true
+      run: dotnet pack --include-symbols --include-source --configuration release
     - name: Publish
       run: nuget push './**/NuSource.FluentConversions.*.nupkg' -Source 'https://api.nuget.org/v3/index.json' -ApiKey '${{ secrets.NUGET_DOT_ORG_API_KEY }}' -SkipDuplicate
