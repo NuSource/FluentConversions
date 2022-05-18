@@ -19,7 +19,7 @@
         <Description>Simple and fluent conversions for various units.</Description>
     </PropertyGroup>
 
-    <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
         <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     </PropertyGroup>
 
